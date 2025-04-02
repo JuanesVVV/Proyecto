@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+    <link rel="stylesheet" href="CSS/styles (1).css">
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="#CSS">CSS</a></li>
+            <li><a href="#JavaScript">JavaScript</a></li>
+            <li><a href="#Tabla de atributos CSS">Tabla de atributos CSS</a></li>
+        </ul>
+    </nav>
+    <section class="seccion1" id="CSS">
+        <h1>CSS</h1>
+        <p>
+            El CSS(Cascading Style Sheets) es el lenguaje que describe los estilos de un documento HTML, 
+            se encarga de aspectos como colores, tamaños, margenes, etc. Su importancia radica en que permite darle un aspecto 
+            visual atractivo a la hora de deasarrollar una pagina web.
+        </p>
+        <hr>
+        <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank">
+            <img src="Imagenes/css-logo.png" alt="Logo CSS">
+        </a>
+    </section>
+    <section class="seccion2" id="JavaScript">
+        <h1>JavaScript</h1>
+        <p>
+            JavaScript es importante para la web porque permite a los desarrolladores crear sitios webs interactivos, dinamicos, 
+            con contenido que se actualiza, animaciones, efectos, etc. Generando una mejor experiencia para el usuario y tambien 
+            al desarrollador al tener un mundo de posibilidades para crear.
+        </p>
+        <hr>
+        <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank">
+            <img src="Imagenes/JavaScript-logo.png" alt="Logo JavaScript">
+        </a>
+    </section>
+    <section class="seccion3"id="Tabla de atributos CSS">
+        <h1>Tabla de atributos CSS</h1>
+        <div>
+            <table border="1">
+                <tr>
+                    <th><h3>Nombre del atributo</h3></th>
+                    <th><h3>Descripcion</h3></th>
+                    <th><h3>Valores posibles</h3></th>
+                    <th><h3>Ejemplo de uso</h3></th>
+                    <th><h3>Imagen representativa</h3></th>
+                    <th><h3>Fuente de informacion</h3></th>
+                </tr>
+                <tr>
+                    <td>font-size</td>
+                    <td>especifica la dimensión de la letra</td>
+                    <td>puede tomar unidades absolutas como los pixeles, tambien unidades relativas como el porcentaje y puede tomar
+                        palabras claves como small, medium, large, etc
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Unidades absolutas: font-size: 16px;</li>
+                            <li>Unidades relativas: font-size: 120%;</li>
+                            <li>Palabras clave: font-size: large;</li>
+                        </ul>
+                    </td>
+                    <td><img src="Imagenes/Font-size.png" alt="font-size"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/font-size">font-size</a></td>
+                </tr>
+                <tr>
+                    <td>border-radius</td>
+                    <td>redondea las esquinas del borde exterior de un elemento</td>
+                    <td>puede tomar unidades absolutas como los pixeles, tambien toma porcentajes, o tambien puedes modificar el tamaño
+                        de cada esquina de manera individual, o definir una radio horizontal y vertical
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Unidades absolutas: border-radius: 10px;</li>
+                            <li>Valores Individuales (Cada esquina): border-radius: 10px 20px 30px 40px;</li>
+                            <li>Radios separados: border-radius: 50px/20px;</li>
+                        </ul>
+                    </td>
+                    <td><img src="Imagenes/Border-radius.png" alt="border-radius"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/border-radius">border-radius</a></td>
+                </tr>
+                <tr>
+                    <td>display</td>
+                    <td>establece los tipos de visualizacion interna y externa de un elemento</td>
+                    <td>hay formas comunes que puede tomar el elemento como que sea visualice en bloque, tambien puede verse de una forma
+                        avanzada para que se pueda visualizar en un celular adaptandose a la pantalla</td>
+                    <td>
+                        <ul>
+                            <li>Valores comunes: display: block;</li>
+                            <li>Valores para un diseño avanzado: display: flex;</li>
+                        </ul>
+                    </td>
+                    <td><img src="Imagenes/Display.png" alt="display"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/display">display</a></td>
+                </tr>
+                <tr>
+                    <td>flexbox</td>
+                    <td>un metodo que pueda ayudar a distribuir el espacio entre los items de una interfaz y mejorar las capacidades de alineacion</td>
+                    <td>depende de la propiedad que se utilice, ya sea para un contenedor, direccion de elementos o alinear los elementos a un eje</td>
+                    <td>
+                        <ul>
+                            <li>En un contenedor: display: flex;</li>
+                            <li>Para definir la direccion de los elementos: flex-direction: row;</li>
+                            <li>Para alinear los elementos en un eje principal: justify-content: center;</li>
+                        </ul>
+                    </td>
+                    <td><img src="Imagenes/Flexblox.png" alt=""></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox">flexbox</a></td>
+                </tr>
+                <tr>
+                    <td>position</td>
+                    <td>especifica como un elemento es posicionado en el documento</td>
+                    <td>se puede posicionar un elemento ya sea por defecto o especificar en que parte de la pagina quieres que se fije</td>
+                    <td>
+                        <ul>
+                            <li>Por defecto: position: static;</li>
+                            <li>Especificar posicion: position: relative;</li>
+                            <li>Permanecer fijo al desplazarse: position: fixed;</li>
+                        </ul>
+                    </td>
+                    <td><img src="Imagenes/Position.png" alt="position"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/position">position</a></td>
+                </tr>
+                <tr>
+                    <td>box-shadow</td>
+                    <td>añade efectos de sombra alrededor del marco de un elemento</td>
+                    <td>se puede modificar el tono, brillo, calidez de la sombras, ademas, puede desplazar esta misma</td>
+                    <td>
+                        <ul>
+                            <li>Generar una sombra: box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);</li>
+                        </ul>
+                    </td>
+                    <td><img src="Imagenes/Box-shadow.png" alt="box-shadow"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/box-shadow">box-shadow</a></td>
+                </tr>
+                <tr>
+                    <td>overflow</td>
+                    <td>especifica: si recortar contenido, dibujar barras de desplazamiento o mostrar el contenido excedente 
+                        en un elemento a nivel de bloque</td>
+                    <td>se puede ocultar las barras o que sean visibles, tambien que estas aparezcan si se excede el contenido</td>
+                    <td>
+                        <ul>
+                            <li>Por defecto: overflow: visible;</li>
+                            <li>Ocultar: overflow: hidden;</li>
+                            <li>Barras de desplazamiento: overflow: scroll;</li>
+                        </ul>
+                    </td>
+                    <td><img src="Imagenes/Overflow.png" alt="overflow"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/overflow">overflow</a></td>
+                </tr>
+                <tr>
+                    <td>z-index</td>
+                    <td>indica el orden de un elemento posicionado y sus descendientes</td>
+                    <td>puede dejar que el orden venga por defecto o manejarlo con numeros positvos y negativos</td>
+                    <td>
+                        <ul>
+                            <li>Valores numericos positivos: z-index: 1;</li>
+                            <li>Valores numericos negativos: z-index: -1;</li>
+                            <li>Valor predeterminado: z-index: auto;</li>
+                        </ul>
+                    </td>
+                    <td><img src="Imagenes/Z-index.png" alt="z-index"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/z-index">z-index</a></td>
+                </tr>
+                <tr>
+                    <td>opacity</td>
+                    <td>define la transparencia de un elemento</td>
+                    <td>se puede tomar valores comunes para este atributo</td>
+                    <td>
+                        <ul>
+                            <li>Valores comunes: opacity: 1;</li>
+                        </ul>
+                    </td>
+                    <td><img src="Imagenes/Opacity.png" alt="opacity"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/opacity">opacity</a></td>
+                </tr>
+                <tr>
+                    <td>margin y padding</td>
+                    <td>margin establece el margen para los cuatro lados y padding establece el area de relleno en los cuatro lados de un 
+                        elemento a la vez</td>
+                    <td>margin y padding pueden tomar valores numericos ya sean unidades absolutas o relativas</td>
+                    <td>
+                        <ul>
+                            <li>margin: margin: 10px;</li>
+                            <li>padding: padding; 10px;</li>
+                        </ul>
+                    </td>
+                    <td><img src="Imagenes/Margin y Padding.png" alt="margin y padding"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/margin">margin </a>y<a href="https://developer.mozilla.org/es/docs/Web/CSS/padding"> padding</a></td>
+                </tr>
+                <tr>
+                    <td>background-color</td>
+                    <td>define el color de fondo de un elemento</td>
+                    <td>puede tomar palabras claves para definir el color o utilizar valores hexadecimales, RGB y HSL</td>
+                    <td>
+                        <ul>
+                            <li>Palabras clave: background-color: red;</li>
+                            <li>Valores Hexadecimales: background-color: #ff0000;</li>
+                            <li>Valores RGB: rgb(255, 0, 0);</li>
+                        </ul>
+                    </td>
+                    <td><img src="Imagenes/Background-color.png" alt="background-color"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/background-color">background-color</a></td>
+                </tr>
+                <tr>
+                    <td>font-family</td>
+                    <td>define una lista de fuentes o familias de fuentes</td>
+                    <td>se usan las fuentes especificas, ademas, se puede usar una reserva si por si acaso esa fuente no esta disponible
+                        y se puede usar fuentes personalizadas
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Fuente especifica: font-family: "Arial";</li>
+                            <li>Familias genericas: font-family: "Georgia", serif;</li>
+                        </ul>
+                    </td>
+                    <td><img src="Imagenes/Font-family.png" alt="font-family"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/font-family">font-family</a></td>
+                </tr>
+                <tr>
+                    <td>justify-content</td>
+                    <td>define como el navegador distribuye el espacio entre y alrededor de los items flex</td>
+                    <td>puede alinear los elementos al inicio o al final del eje principal, tambien los puedes centrar y distribuir
+                        en espacios iguales
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Centrado: justify-content: center;</li>
+                        </ul>
+                    </td>
+                    <td><img src="Imagenes/Justify-content.png" alt="justify-content"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/justify-content">justify-content</a></td>
+                </tr>
+                <tr>
+                    <td>text-decoration</td>
+                    <td>se usa para establecer el formato de texto a subrayado y suprarrayado, tachado o parpadeo</td>
+                    <td>puede utilizar valores comunes para eliminar o agregar una decoracion al texto como el subrayado, tamnien se 
+                        puede usar valores compuestos para agregar mas de una decoracion
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Valores comunes: text-decoration: overline;</li>
+                            <li>Valores compuestos: text-decoration: underline overline;</li>
+                        </ul>
+                    </td>
+                    <td><img src="Imagenes/Text-decoration.png" alt="text-decoration"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/text-decoration">text-decoration</a></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+</body>
+</html>
